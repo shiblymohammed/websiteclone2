@@ -1,0 +1,318 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+}
+header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 26px 145px;
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  
+}
+.logo{
+  height: 37px;
+  display: block;
+}
+header div+div{
+  text-align: right;
+  
+  
+}
+.signin{
+display: inline-block;
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 17px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+
+}
+.language{
+  background: transparent;
+  color: white;
+  padding: 6px 17px;
+  border-style: solid;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 16px;
+  font-weight: bold;
+
+  
+}
+.signin:hover{
+  background-color: #bc0009;
+}
+.background{
+  max-width: 100%;
+  opacity: 0.6;
+}
+.splash{
+  position: relative;
+}
+.gradient{
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+.content{
+ 
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+div.splash h1{
+font-size: 3.125rem;
+font-weight: bolder;
+}
+div.splash h2{
+  font-weight: normal;
+  font-size: 1.625rem;
+  margin-top: 13px;
+  margin-bottom: 29px;
+}
+div.splash h3{
+  font-size: 1.2rem;
+  font-weight: normal;
+  
+}
+.email{
+  margin-right: 10px;
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  background-color: black;
+  opacity: 0.5;
+  border
+  
+ 
+  
+
+}
+input::placeholder{
+  color: white;
+  opacity: 1;
+  padding: 20px;
+}
+
+.get{
+  height: 51px;
+  background-color: #e50914;
+  color: white;
+  width: 160px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+.get:hover{
+  background-color: #bc0009;
+}
+
+
+.form1{
+  padding: 5px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ margin-top: 18px;
+  /*-------------------------*/
+}
+.features{
+  
+  font-size: 22px;
+  background-color: rgb(45, 45, 45);
+  padding-top: 1px;
+  margin-bottom: 1px;
+}
+.row{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 50px 12%;
+  margin-top: 10px;
+  
+}
+.text-col{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+  
+}
+.img-col{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+
+}
+.img-col img{
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.features h2{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+/*-----------------------------------*/
+.faq{
+  padding: 40px 10px;
+  background-color: black;
+  margin-top: 10px;
+}
+div.faq h1{
+  font-size: 3.125rem;
+  text-align: center;
+
+}
+.questions{
+  max-width: 1000px;
+  margin: 0 auto; 
+  
+}
+.question{
+  position: relative;
+  background-color:rgb(46, 46, 46);
+  
+}
+.question svg{
+  width: 30px;
+  height: 30px;
+  right: 30px;
+  top: 20px;
+  position: absolute;
+}
+div.question label.header1{
+  padding: 20px 30px;
+  cursor: pointer;
+  display: block;
+  
+  
+}
+label.header1:hover{
+  background-color: rgb(58, 58, 58);
+
+}
+
+
+
+div.question label{
+  margin-top: 10px;
+}
+.footer1{
+  font-size: 18px;
+  text-align: center;
+  padding-top: 40px;
+ 
+}
+.email2{
+  margin-right: 10px;
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  background-color: black;
+  opacity: 0.5;
+  border
+  margin-top: 20px
+  ;
+ 
+  
+
+}
+.language2{
+  background: transparent;
+  color: white;
+  padding: 6px 17px;
+  border-style: solid;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: bold;
+
+  
+}
+
+.get2{
+  height: 51px;
+  background-color: #e50914;
+  color: white;
+  width: 160px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+.get2:hover{
+  background-color: #bc0009;
+}
+
+div.list1 div{
+  padding-top: 15px;
+}
+.footer{
+ 
+  border-top: 6px solid;
+  color: #979797;
+  display: flex;
+  padding-bottom: 75px;
+  padding-right: 80px;
+  padding-left: 80px;
+  
+
+}
+.footerow{
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-top: 85px;
+  list-style-type: none;
+  color: white;
+  margin-right: 40px;
+}
+.footerow li a{
+  color:rgb(145, 145, 145);
+  margin-bottom: 25px;
+  font-size: 14px;
+
+  
+}
+.footerow li{
+  padding-top: 18px;
+  padding-right: 0px;
+  
+}
+.language2{
+  background: transparent;
+  color: white;
+  
+  border-style: solid;
+  border-radius: 3px;
+  display: inline-block;
+  
+  font-weight: bold;
+}
+
+.call{
+  width: 100%;
+  color: rgb(145, 145, 145);
+}
